@@ -1,0 +1,100 @@
+.medicine-Container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.medicine-table {
+    /* border: 1px solid black; */
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0 black;
+    width: 75vw;
+}
+
+.medicine-title {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.medicine-table table {
+    width: 100%;
+}
+
+.medicine-table-title {
+    text-align: center;
+    margin: 15px;
+}
+
+.medicine-table tr,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.medicine-table tr:hover {
+    background-color: lightblue;
+}
+
+.medicine-detailscontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.medicine-table-field {
+    /* border: 1px solid black; */
+    display: flex;
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
+}
+
+.medicine-table-field p {
+    margin: 5px;
+}
+
+.medicine-add {
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0 black;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medicine-add-field {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.medicine-add-title {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.medicine-add-routine input {
+    margin: 3px 8px;
+    cursor: pointer;
+}
+
+.medicine-error-massage {
+    font-size: 25px;
+}
+
+.medicine-details {
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 1px 0 black;
+    display: flex;
+}

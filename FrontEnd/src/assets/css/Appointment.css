@@ -1,0 +1,54 @@
+.patientmodifer-formcontainer-field select {
+    padding: 5px;
+    font-size: 13px;
+}
+
+.listofpatient-table-bookBn {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightgray;
+    }
+}
+
+.appointment-date{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.appointment-date-title{
+    margin-right: 15px;
+}
+
+/* .listofpatient-popupmenu {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0 black;
+}
+
+.popupmenu-BnDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.popupmenu-noBn,
+.popupmenu-yesBn {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightgray;
+    }
+} */

@@ -1,0 +1,70 @@
+.listofpatient-Container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listofpatient-table {
+    /* border: 1px solid black; */
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0 black;
+    width: 90vw;
+}
+
+.listofpatient-table table {
+    width: 100%;
+}
+
+.listofpatient-table-title {
+    text-align: center;
+    margin: 15px;
+}
+
+.listofpatient-table tr,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.listofpatient-table tr:hover {
+    background-color: lightblue;
+}
+
+/* PatientModifer ----------------------------------------------------------- */
+
+.patientmodifer-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patientmodifer-container-title {
+    margin: 20px;
+}
+
+.patientmodifer-formcontainer {
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0 black;
+    text-align: center;
+}
+
+.patientmodifer-formcontainer-field {
+    padding: 10px;
+    margin: 10px;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.patientmodifer-formcontainer-seperate {
+    display: flex;
+    flex-direction: column;
+}

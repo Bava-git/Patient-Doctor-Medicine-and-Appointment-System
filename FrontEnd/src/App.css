@@ -1,0 +1,103 @@
+/* Root ---------------------------------------------------------------------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+/* LeftSliter ---------------------------------------------------------------------------------*/
+
+.leftsliter-container {
+    background-color: gray;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+    /* width: 190px; */
+    width: 50px;
+}
+
+.leftSilter-Bns {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 0;
+    transition: color 0.5s;
+}
+
+.leftsliter-container button:hover {
+    background-color: lightpink;
+}
+
+.leftSilter-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.leftsliter-container span {
+    display: none;
+    font-size: 15px;
+}
+
+.leftSilter-Bns :hover {
+    color: rgb(255, 255, 255);
+}
+
+.leftsliter-container:hover span {
+    display: block;
+}
+
+.leftsliter-container:hover {
+    width: 200px;
+}
+
+/* Header --------------------------------------------------------------------------------- */
+
+.header-container {
+    background-color: gray;
+    height: 50px;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 20px;
+    color: white;
+}
+
+.header-bns {
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightpink;
+    }
+}
+
+.registerBn {
+    margin-right: 30px;
+}
+
+.logo{
+    cursor: pointer;
+    
+}
